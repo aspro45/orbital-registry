@@ -1,0 +1,32 @@
+{
+  "project": "37-orbital-registry",
+  "name": "OrbitalRegistry",
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "explorer": "https://explorer-studio.genlayer.com",
+  "contractAddress": "0xEa753d1D297D2c4877Fd168c376C0412A07ECd97",
+  "deployTxHash": "0xb736e59af7fbf3827759a17081b48285f626f4e22f2292311b4414f5ce320493",
+  "contractExplorer": "https://explorer-studio.genlayer.com/contracts/0xEa753d1D297D2c4877Fd168c376C0412A07ECd97",
+  "deployer": "0xE4cD6694fb025df0551C1C7F5fdCD0e1978D7bd0",
+  "deployedAt": "2026-06-24T17:31:00.713Z",
+  "statusName": 7,
+  "smoke": {
+    "configure_protocol": "0x9be14dfc3956fa01a90562e50ecccbdec82199de724147365534fa2e4556f9ab",
+    "create_case": "0x39fe286fe682375f46fbbbd4f9b04b4f7ddb8dbfc40e07c8f0a7a0ce01297d44",
+    "add_evidence_web": "0x7015432966f52dc19cab5ccb6df78b02634e9ce7d38bf66730674761663f263d",
+    "add_evidence_security": "0x4ffc761ae86d647eb572b5694959ea8cc9fc8e01aa2e13058314df999364c407",
+    "add_evidence_whitepaper": "0x3705688e9166adf24146328f655eae2afe6322f808c995970405ccb6f61235b5",
+    "review": "0x9dc59ed4d5114d0f827c20520a3c3c1568146281b69d07905911203710faaea5",
+    "challenge_window": "0x7208f0615419316937758e7b529ae6b3a28886817947fa0d40f2bbaec279948e",
+    "submit_challenge": "0xb7042d7f3a0420886e9dbf7e726b83b7e7a033756345e9eb3dfb8c49f1e4abc8",
+    "resolve_challenge": "0x20103f0a0dbf10594e1c4cfc5bb7c68602aeb100bdb5f01e348c6063b5b81ef8",
+    "submit_appeal": "0x2c96ea326536a4e5000dbbbfc658fdd53a49f7bd448be55b5a47b56e3eb94abd",
+    "resolve_appeal": "0xce2bb227385a1af4925e864de4b4e6e13b6f8d1f7930a22ff0e74ae0430f393a",
+    "finalize": "0x622ed65614cfa37eff91e855e38e83e0a965c993a063bd714e3ccf2f585f0bc4",
+    "reputation": "0x184b4e34ec66501030c3126159021858cbe5a722d669615a8d6a8c9d36d510d2",
+    "caseId": "0",
+    "challengeId": "0",
+    "appealId": "0"
+  }
+}
