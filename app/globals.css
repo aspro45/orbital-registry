@@ -11,4 +11,7 @@ h1,h2,h3 { font-family:var(--font-grotesk),system-ui,sans-serif; line-height:1.0
 :focus-visible { outline:2px solid #53B9D8; outline-offset:2px; }
 .skip-link { position:absolute; left:-9999px; top:0; z-index:100; background:#53B9D8; color:#050A16; padding:10px 16px; }
 .skip-link:focus { left:8px; top:8px; }
+.wallet-button { display:flex; flex-shrink:0; justify-content:flex-end; }
+.wallet-button [data-rk] button { min-height:40px; border-radius:6px!important; font-family:var(--font-inter),system-ui,sans-serif!important; font-size:.88rem!important; box-shadow:none!important; }
+@media (max-width: 480px){ .wallet-button [data-rk] button { max-width:132px; overflow:hidden; } }
 @media (prefers-reduced-motion: reduce){ *{animation-duration:.001ms!important;transition-duration:.001ms!important} }

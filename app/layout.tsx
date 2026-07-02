@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
+import "@rainbow-me/rainbowkit/styles.css";
 import "./globals.css";
 import { Providers } from "./providers";
 import Link from "next/link";
 import { ENV, PREVIEW_MODE } from "@/lib/env";
+import { WalletButton } from "@/components/WalletButton";
 
 const grotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-grotesk", display: "swap" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -24,9 +26,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="sticky top-0 z-40 border-b border-starlight/10 bg-space/85 backdrop-blur" style={{ paddingTop: "env(safe-area-inset-top)" }}>
             <div className="mx-auto flex max-w-wide items-center gap-4 px-4 py-3 sm:px-5 md:px-8">
               <Link href="/" className="font-head text-lg font-semibold text-starlight">Orbital Registry</Link>
-              <nav className="ml-auto flex items-center gap-4 text-sm" aria-label="Primary">
+              <nav className="ml-auto hidden items-center gap-4 text-sm sm:flex" aria-label="Primary">
                 <Link href="/app" className="hover:text-cyan">Register</Link><Link href="/registry" className="hover:text-cyan">Registry</Link><Link href="/system" className="hover:text-cyan">System</Link>
               </nav>
+              <WalletButton />
             </div>
           </header>
           <main id="main">{children}</main>
