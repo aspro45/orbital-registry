@@ -57,6 +57,7 @@ Open the dev server URL printed by npm.
 ## Public Release
 
 - Repository: <https://github.com/aspro45/orbital-registry>
+- Live app: <https://orbital-registry.vercel.app>
 - Framework: Next.js
 - Build: `npm run build`
 
